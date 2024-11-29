@@ -1,5 +1,5 @@
 runtime: python310  # Specifies the Python version
-entrypoint: gunicorn -b :$PORT "question5:app"  # This tells GAE how to run the Flask app
+entrypoint: gunicorn -b :$PORT "question:app"  # This tells GAE how to run the Flask app
 
 instance_class: F1  # Specifies the instance type; F1 is a basic, free tier instance
 
